@@ -1,0 +1,1350 @@
+core:
+  admin:
+    advanced:
+      fontawesome:
+        source_kit: FontAwesome Kiti
+  email:
+    activate_account:
+      body: 'Bu e-posta adresiyle {forum} sitesine kaydolundu.
+
+
+        Hesabını etkinleştirmek için aşağıdaki bağlantıya tıkla:
+
+        {url}
+
+
+        Bu e-posta gelen kutunda değil de Spam / Gereksiz klasörüne düştüyse, lütfen "Spam değil" olarak işaretle. Böylece sonraki bildirimlerimiz doğrudan gelen kutuna ulaşır.
+
+
+        Kaydolan sen değilsen bu e-postayı dikkate alma; hesap etkinleştirilmeden hiçbir işlem yapılamaz.
+
+        '
+      subject: Flarum Türkiye hesabını etkinleştir
+    confirm_email:
+      body: '{forum} sitesindeki hesabının e-posta adresi bu adresle değiştirildi.
+
+
+        Yeni adresini onaylamak için aşağıdaki bağlantıya tıkla:
+
+        {url}
+
+
+        Bu e-posta gelen kutunda değil de Spam / Gereksiz klasörüne düştüyse, lütfen "Spam değil" olarak işaretle. Böylece sonraki bildirimlerimiz doğrudan gelen kutuna ulaşır.
+
+
+        Bu değişikliği sen yapmadıysan bu e-postayı dikkate alma.
+
+        '
+      subject: Yeni e-posta adresini doğrula
+    notification:
+      types:
+        awardedBestAnswer: Gönderilerinizin en iyi cevap seçilmesi
+        bestAnswerInDiscussion: Katıldığınız tartışmalardaki en iyi cevaplar
+        discussionCreated: Yeni tartışmalar
+        discussionMerged: Tartışmalarınızın birleştirilmesi
+        newDiscussionByUser: Takip ettiğin kişilerin yeni tartışmaları
+        newDiscussionInTag: Takip ettiğin kategorilerdeki yeni tartışmalar
+        newDiscussionTag: Takip ettiğin kategorilere taşınan tartışmalar
+        newFollower: Yeni takipçiler
+        newPostByUser: Takip ettiğin kişilerin yeni mesajları
+        newPostInTag: Takip ettiğin kategorilerdeki yeni gönderiler
+        postCreated: Yeni mesajlar ve yanıtlar
+        postFlagged: Yeni şikâyet edilen mesajlar
+        postUnapproved: Onay bekleyen mesajlar
+        selectBestAnswer: Tartışmalarınızda en iyi cevabı seçme hatırlatmaları
+        userCreated: Yeni üye kayıtları
+        usernameRequestApproved: Kullanıcı adı değişikliği taleplerinin onaylanması
+        usernameRequestRejected: Kullanıcı adı değişikliği taleplerinin reddedilmesi
+    reset_password:
+      body: '{forum} sitesindeki hesabın için şifre sıfırlama talebinde bulunuldu.
+
+
+        Yeni şifreni belirlemek için aşağıdaki bağlantıya tıkla:
+
+        {url}
+
+
+        Bu e-posta gelen kutunda değil de Spam / Gereksiz klasörüne düştüyse, lütfen "Spam değil" olarak işaretle. Böylece sonraki bildirimlerimiz doğrudan gelen kutuna ulaşır.
+
+
+        Bu talebi sen yapmadıysan bu e-postayı dikkate alma; şifren değişmeyecek.
+
+        '
+      subject: Şifre sıfırlama bağlantın
+  forum:
+    discussion_controls:
+      log_in_to_reply_button: Yanıtlamak için giriş yap
+    forgot_password:
+      success_text: Sıfırlama bağlantısını gönderdik. Gelen kutunda yoksa Spam / Gereksiz klasörüne bak ve "Spam değil" olarak işaretle.
+      text: E-posta adresini yaz, şifreni sıfırlaman için bir bağlantı gönderelim. E-posta gelmezse Spam / Gereksiz klasörünü kontrol etmeyi unutma.
+    sign_up:
+      welcome_text: Hoş geldin, {username}! 🎉
+    user:
+      joined_date_text: 'Katılım: {ago}'
+    user_email_confirmation:
+      alert_message: '{email} adresine bir onay e-postası gönderdik. Hesabını etkinleştirmeden konu açamaz ve yanıt yazamazsın. E-posta birkaç dakika içinde gelmezse Spam / Gereksiz klasörünü kontrol et ve "Spam değil" olarak işaretle.'
+      resend_button: Onay e-postasını yeniden gönder
+      sent_message: Gönderildi, gelen kutunu ve spam klasörünü kontrol et
+  lib:
+    number_suffix:
+      kilo_text: B
+      mega_text: Mn
+  ref:
+    confirmation_email_sent: '{email} adresine bir onay e-postası gönderdik. Birkaç dakika içinde gelmezse Spam / Gereksiz klasörünü kontrol et ve "Spam değil" olarak işaretle.'
+    least_viewed: En az görüntülenen
+    most_viewed: En çok görüntülenen
+  views:
+    confirm_email:
+      text: Hesabının e-posta adresini onaylamak için aşağıdaki düğmeye tıkla.
+ernestdefoe-parley:
+  admin:
+    permissions:
+      hide_from_list: Sohbet çevrimiçi listesinde gizli
+      moderate: Şikâyet edilen sohbet mesajlarını inceleyebilir
+      use: Sohbeti (Parley) kullanabilir
+    rooms:
+      add: Oda ekle
+      announcements: duyurular
+      archive: Arşivle
+      archived: arşivlendi
+      cancel: Vazgeç
+      delete: Sil
+      delete_confirm: Odayı ve içindeki tüm mesajları sil
+      description: Odanın amacı (isteğe bağlı)
+      edit: Düzenle
+      emoji: Emoji
+      emoji_help: Oda için bir emoji. Odanın bağlı olduğu kategorinin simgesini göstermek için boş bırakın.
+      emoji_placeholder: Logo
+      everyone: Sohbeti kullanabilen herkes
+      help: Bir odanın listedeki yerini değiştirmek için sürükleyin. Bir kategoriye bağlı oda, tam olarak o kategoriyi görebilen kişiler tarafından görülür. Oda; yüklenen logosunu, yoksa emojisini, o da yoksa bağlı olduğu kategorinin simgesini gösterir. Koyu modda logonun koyu sürümü gösterilir; yüklenmemişse ve logo koyu zeminde okunmuyorsa otomatik bir sürüm oluşturulur.
+      hide_rooms: İçindeki odaları gizle
+      in_tag: '{tag} gibi görünür'
+      members: '{count, plural, one {# üye} other {# üye}}'
+      name: Ad
+      no_parent: Yok — ana oda
+      parent: Üst oda
+      readonly: Duyurular — yalnızca moderatörler yazabilir
+      remove_logo: Logoyu kaldır
+      replace_dark_logo: Koyu mod logosunu değiştir
+      replace_logo: Logoyu değiştir
+      restore: Geri yükle
+      same_as_tag: '{tag} kategorisini görebilen herkes'
+      save: Kaydet
+      show_rooms: İçinde {count, plural, one {# oda} other {# oda}}
+      title: Odalar
+      upload_dark_logo: Koyu mod logosu
+      upload_logo: Logo yükle
+      who_sees: Kimler görebilir
+    settings:
+      away_minutes: Uzakta görünmeden önceki dakika
+      away_minutes_help: Sayfada bu süre boyunca işlem yapmayan kişi Uzakta olarak görünür.
+      group_max_members: En büyük grup konuşması
+      group_max_members_help: Bir grup konuşmasında kurucu dahil en fazla kaç kişi olabilir.
+      max_file_mb: En büyük video veya dosya (MB)
+      max_file_mb_help: Konuşmalarda gönderilen video ve dosyalar en fazla bu boyutta olabilir. Sunucunuzun yükleme sınırı (PHP'de upload_max_filesize ve post_max_size, nginx'te client_max_body_size) en az bu kadar olmalıdır.
+      max_image_mb: En büyük resim (MB)
+      max_image_mb_help: Konuşmalarda gönderilen resimler en fazla bu boyutta olabilir.
+      max_voice_seconds: En uzun sesli mesaj (saniye)
+      max_voice_seconds_help: Kayıt bu süreye ulaşınca kendiliğinden durur.
+  api:
+    already_reported: Bu mesajı zaten şikâyet ettin. Bir moderatör inceleyecek.
+    empty_message: Önce bir mesaj yaz.
+    file_too_big: Bu dosya {max} MB'tan büyük.
+    file_type: Bu tür dosyalar gönderilemez. PDF, belge, tablo, metin, arşiv, resim, video ve MP3 dosyaları gönderebilirsin.
+    forward_where: İletmek için en az bir konuşma seç.
+    group_flood: Son bir saatte çok fazla grup oluşturdun. Daha sonra tekrar dene.
+    group_name: Grup adı en fazla {max} karakter olabilir.
+    group_photo_type: En fazla {max} MB boyutunda PNG, JPEG, WebP veya GIF resmi kullan.
+    group_too_big: Bir grupta en fazla {max} kişi olabilir.
+    group_too_small: Grup başlatmak için en az iki kişi seç.
+    image_too_big: Bu resim {max} MB'tan büyük.
+    no_file: Dosya gönderilmedi.
+    not_a_video: Bu videonun biçimi oynatılamıyor. MP4, WebM veya MOV kullan.
+    not_an_image: Bu dosya gösterilebilecek bir resim değil. JPEG, PNG, GIF veya WebP kullan.
+    not_audio: Bu kayıt okunamadı. Tekrar dene.
+    refusal:
+      blocked: '{name} kişisine mesaj gönderemezsin.'
+      blocked_in_group: '{name}, gruptaki biriyle aynı grupta olamaz.'
+      closed: '{name} mesaj kabul etmiyor.'
+      following_only: '{name} yalnızca takip ettiği kişilerden mesaj kabul ediyor.'
+      no_permission: Mesaj gönderme iznin yok.
+      room_archived: Bu oda arşivlendi.
+      room_hidden: Bu oda sana açık değil.
+      room_readonly: Bu odaya yalnızca moderatörler yazabilir.
+      self: Kendine mesaj gönderemezsin.
+      unavailable: '{name} mesaj alamıyor.'
+      unconfirmed: Mesaj göndermeden önce e-posta adresini doğrula.
+    room_image_type: En fazla {max} MB boyutunda PNG, JPEG, WebP veya GIF resmi kullan.
+    room_name: Odaya en fazla 80 karakterlik bir ad ver.
+    too_long: Bir mesaj en fazla {max} karakter olabilir.
+    too_many_pins: Bir konuşmada en fazla {max} sabitlenmiş mesaj olabilir. Önce birinin sabitlemesini kaldır.
+    unknown_label: Bilinmeyen etiket.
+    unknown_reaction: Bilinmeyen tepki.
+    upload_failed: Resim yüklenemedi. Tekrar dene.
+    voice_too_long: Sesli mesaj en fazla {max, plural, one {# dakika} other {# dakika}} olabilir.
+  forum:
+    activity:
+      active_now: Şu an aktif
+      all_discussions: Tüm tartışmalar
+      away: Uzakta
+      browsing: Geziniyor
+      busy: Meşgul
+      calls_muted: aramalar sessizde
+      chatting: Sohbet ediyor
+      dnd: Rahatsız etmeyin
+      idle: '{minutes} dk boşta'
+      in_voice: Sesli sohbette
+      last_seen: Son görülme {ago}
+      offline: Çevrimdışı
+      online: Çevrimiçi
+      reading: Okuyor
+      replying: Yanıt yazıyor
+    controls:
+      block: Engelle
+      blocked: '{name} engellendi. Artık birbirinize mesaj gönderemez ve birbirinizi çevrimiçi göremezsiniz.'
+      follow: Takip et
+      message: Mesaj gönder
+      unfollow: Takibi bırak
+    details:
+      add_people: Kişi ekle
+      change_photo: Grup fotoğrafını değiştir
+      close: Ayrıntıları kapat
+      group_name: Grup adı
+      label: Konuşma ayrıntıları
+      leave: Gruptan ayrıl
+      leave_confirm: Bu gruptan ayrılmak istiyor musun? Gruptaki yeni mesajları göremeyeceksin.
+      members: Üyeler
+      more: Daha fazla göster
+      mute: Sessize al
+      none_files: Henüz dosya veya sesli mesaj yok.
+      none_links: Henüz bağlantı yok.
+      none_media: Henüz fotoğraf veya video yok.
+      none_pins: Henüz sabitlenen bir şey yok.
+      owner: Kurucu
+      pins: Sabitlenenler
+      profile: Profil
+      remove: '{name} kişisini çıkar'
+      remove_confirm: '{name} gruptan çıkarılsın mı?'
+      remove_photo: Fotoğrafı kaldır
+      rename: Grubu yeniden adlandır
+      save: Kaydet
+      search: Ara
+      tab_files: Dosyalar
+      tab_links: Bağlantılar
+      tab_media: Medya
+      tab_pins: Sabitlenenler
+      unmute: Sesi aç
+    emoji:
+      activity: Etkinlikler ve nesneler
+      food: Yiyecek ve içecek
+      hearts: Kalpler ve kutlamalar
+      label: Emoji
+      nature: Hayvanlar ve doğa
+      people: İnsanlar ve hareketler
+      smileys: Yüz ifadeleri
+    forward:
+      help: En fazla {max} konuşma seç.
+      search: Konuşmalarda ara
+      send: '{count, plural, =0 {İlet} one {# konuşmaya ilet} other {# konuşmaya ilet}}'
+      sent: '{count, plural, one {İletildi.} other {# konuşmaya iletildi.}}'
+      title: Mesajı ilet
+    group:
+      names_more: '{names} ve {count} kişi daha'
+      untitled: Grup
+    inbox:
+      accept: Kabul et
+      archive: Arşivle
+      close_search: Konuşmalara dön
+      delete: Listemden sil
+      direct: Sohbetler
+      draft: 'Taslak:'
+      empty_all: Henüz konuşma yok. Yeni mesaj ile başlat ya da çevrimiçi listesinden birine tıkla.
+      empty_archived: Arşivde bir şey yok.
+      empty_groups: Henüz grup yok. Yeni mesaj ile iki veya daha fazla kişi seçerek bir grup başlat.
+      empty_mentions: Henüz bir grupta kimse senden bahsetmedi.
+      empty_muted: Sessize alınmış konuşma yok.
+      empty_pinned: Hiçbir konuşmada sabitlenmiş mesaj yok.
+      empty_requests: Mesaj isteği yok.
+      empty_starred: Bir konuşmayı burada tutmak için menüsünden yıldızla.
+      empty_unread: Okunmamış mesajın yok.
+      filter_all: Tümü
+      filter_archived: Arşiv
+      filter_groups: Gruplar
+      filter_mentions: Bahsetmeler
+      filter_muted: Sessize alınan
+      filter_pinned: Sabitlenmiş mesajlar
+      filter_reports: Şikâyetler
+      filter_requests: İstekler
+      filter_starred: Yıldızlı
+      filter_unread: Okunmamış
+      from_anyone: Herkesten
+      from_me: Benden
+      label: Renk etiketi
+      label_blue: Mavi
+      label_green: Yeşil
+      label_orange: Turuncu
+      label_purple: Mor
+      label_red: Kırmızı
+      label_yellow: Sarı
+      load_more: Daha fazla yükle
+      log_in_to_message: Mesajlarını görmek için giriş yap.
+      messages: Mesajlar
+      more: Daha fazla
+      mute: Sessize al
+      new_message: Yeni mesaj
+      no_access: Hesabında mesajlaşma kullanılamıyor.
+      no_matches: Eşleşen konuşma yok.
+      no_reports: Şikâyet edilen bir şey yok.
+      no_results: Hiçbir şey bulunamadı.
+      options: Konuşma seçenekleri
+      pick: Bir konuşma seç ya da yeni bir tane başlat.
+      reported_by: '{reporter}, {reported} kişisini şikâyet etti'
+      reports: Şikâyetler
+      requests_note: Takip etmediğin kişilerden gelen ilk mesajlar burada bekler. Kabul edene kadar gördüğünü bilmezler.
+      resolve: İncelendi olarak işaretle
+      rooms: Odalar
+      search: Konuşmalarda ara
+      search_from: Gönderen
+      search_messages_for: Mesajlarda “{q}” ara
+      search_type: Tür
+      since: Başlangıç
+      star: Yıldızla
+      title: Mesajlar
+      type_any: Tüm türler
+      type_file: Dosyalar
+      type_link: Bağlantılar
+      type_media: Fotoğraflar ve videolar
+      type_text: Mesajlar
+      type_voice: Sesli mesajlar
+      unarchive: Gelen kutusuna taşı
+      unmute: Sesi aç
+      unstar: Yıldızı kaldır
+      until: Bitiş
+      you: Sen
+    new:
+      add_help: Yeni üyeler konuşmanın geçmişini görebilir.
+      add_submit: '{count, plural, one {# kişi ekle} other {# kişi ekle}}'
+      add_title: Kişi ekle
+      create_group: Grup oluştur
+      direct_help: Birebir konuşma için bir kişi, grup için iki veya daha fazla kişi seç.
+      group_help: Eklediğin herkes grubun mesajlarını görebilir, kişi ekleyebilir ve grubu yeniden adlandırabilir.
+      group_name: Grup adı (isteğe bağlı)
+      group_name_placeholder: Gruba bir ad ver
+      group_photo: Grup fotoğrafı (isteğe bağlı)
+      nobody: Bu isimde mesaj gönderilebilecek kimse yok.
+      remove: '{name} kişisini çıkar'
+      search: Bir isim yaz
+      start: Konuşmayı başlat
+      title: Yeni mesaj
+      to: Kime
+    notifications:
+      mention_plain: '{username} bir konuşmada senden bahsetti'
+      message: '{username} sana bir mesaj gönderdi'
+      report: '{username} kişisinin bir mesajı şikâyet edildi'
+      room_mention: '{username} {room} odasında senden bahsetti'
+      room_mention_plain: '{username} bir odada senden bahsetti'
+    rail:
+      and_more: ve {count} kişi daha
+      counts: '{members, plural, one {# üye} other {# üye}} · {guests, plural, one {# misafir} other {# misafir}}'
+      following: Takip ettiklerin
+      following_empty: Takip ettiğin kişiler burada görünür. Birinin profilindeki Takip Et düğmesini kullan.
+      go_to: '{place} sayfasına git'
+      guests_reading: '{count, plural, one {# misafir} other {# misafir}} okuyor'
+      hide: Kişi listesini gizle
+      label: Çevrimiçi kişiler
+      message: Mesaj
+      message_person: '{name} kişisine mesaj gönder'
+      nobody_matches: Eşleşen çevrimiçi kimse yok.
+      nobody_online: Şu anda başka kimse çevrimiçi değil.
+      online_now: Şu an çevrimiçi
+      other_members: Diğer üyeler
+      peek: '{count} çevrimiçi'
+      peek_unread: '{count} okunmamış'
+      pin: Sayfanın kenarına sabitle
+      search: Çevrimiçi kişilerde ara
+      show: Kişi listesini göster
+      unpin: Sabitlemeyi kaldır — listeyi yüzer göster
+      visible_as: '{status} olarak görünüyorsun'
+      you_appear_offline: Çevrimdışı görünüyorsun
+    rooms:
+      announcements: Duyurular
+      empty: Burada henüz kimse bir şey yazmadı. İlk mesajı sen yaz.
+      here: burada
+      hide_teams: '{name} odalarını gizle'
+      in_voice: '{count} kişi sesli sohbette'
+      members_count: '{count, plural, one {# üye} other {# üye}}'
+      online_count: '{count} çevrimiçi'
+      open: '{name} odasını aç'
+      readonly_note: Bu odaya yalnızca moderatörler yazabilir.
+      show_teams: '{name} odalarını göster ({count, plural, one {# oda} other {# oda}})'
+      title: Odalar
+    settings:
+      everyone: Herkes — takip etmediğim kişiler İstekler'e düşsün
+      everyone_inbox: Herkes, doğrudan gelen kutuma
+      following: Takip ettiğim kişiler
+      nobody: Hiç kimse
+      who_can_message: Bana kimler mesaj gönderebilir
+      who_can_message_help: İstekler, sen kabul edene ya da yanıt verene kadar bildirim olmadan sessizce bekler. Moderatörler sana her zaman mesaj gönderebilir.
+    status:
+      away: Uzakta
+      away_desc: Bir süre işlem yapmazsan otomatik ayarlanır
+      busy: Meşgul
+      busy_desc: Sesleri ve açılır pencereleri susturur
+      busy_desc_calls: Arama zil seslerini ve bildirim seslerini susturur
+      invisible: Çevrimdışı görün
+      invisible_desc: Sen yine de herkesi görebilirsin
+      online: Çevrimiçi
+      online_desc: Herkese görünürsün
+    system:
+      added: '{actor}, {names} kişisini ekledi'
+      and: '{first} ve {last}'
+      created: '{actor} grubu oluşturdu'
+      created_named: '{actor} “{name}” grubunu oluşturdu'
+      left: '{actor} gruptan ayrıldı'
+      photo: '{actor} grup fotoğrafını değiştirdi'
+      photo_removed: '{actor} grup fotoğrafını kaldırdı'
+      pinned: '{actor} bir mesajı sabitledi'
+      removed: '{actor}, {names} kişisini çıkardı'
+      renamed: '{actor} grubun adını “{name}” yaptı'
+      unnamed: '{actor} grubun adını kaldırdı'
+      you: Sen
+      you_lower: sen
+    window:
+      accept: Kabul et
+      add_photo: Fotoğraf ekle
+      attach: Fotoğraf, video veya dosya ekle
+      attachment: Ek
+      back: Mesajlara dön
+      block: Engelle
+      call_missed: Cevapsız arama
+      call_video: Görüntülü arama
+      call_video_declined: Görüntülü arama · reddedildi
+      call_video_unanswered: Görüntülü arama · yanıtlanmadı
+      call_voice: Sesli arama
+      call_voice_declined: Sesli arama · reddedildi
+      call_voice_unanswered: Sesli arama · yanıtlanmadı
+      cancel: Vazgeç
+      close: Kapat
+      close_search: Aramayı kapat
+      copy: Kopyala
+      delete: Sil
+      delete_for_everyone: Herkesten sil
+      delete_request: Sil
+      deleted: Mesaj silindi
+      details: Ayrıntılar
+      edit: Düzenle
+      edited: (düzenlendi)
+      editing: Mesajını düzenliyorsun
+      emoji: Emoji
+      expand: Tam boyutta aç
+      file: Dosya
+      forward: İlet
+      forwarded: İletildi
+      group_empty: Grup hazır. Bir merhaba de.
+      jump_to_latest: En yeni mesajlara git
+      label: '{name} ile konuşma'
+      leave_room: Odadan ayrıl
+      members_count: '{count, plural, one {# üye} other {# üye}}'
+      message_to: '{name} kişisine mesaj'
+      mic_denied: Mikrofonuna erişilemedi. Tarayıcının bu site için ayarlarından mikrofon iznini aç ve tekrar dene.
+      minimise: Küçült
+      more: Daha fazla
+      new_messages: Yeni mesajlar
+      newer_result: Sonraki eşleşme
+      no_results: Eşleşme yok
+      not_sent: Gönderilemedi
+      older_result: Önceki eşleşme
+      open_with: '{name} ile konuşmayı aç'
+      pause: Duraklat
+      photo: Fotoğraf
+      photo_or_video: Fotoğraf veya video
+      pin: Sabitle
+      pinned: Sabitlenmiş mesaj
+      pinned_count: Sabitlenmiş mesaj {index} / {count}
+      placeholder: Bir mesaj yaz…
+      play: Oynat
+      react: Tepki ver
+      reaction_count: '{emoji} {count}'
+      record: Sesli mesaj kaydet
+      recording: Sesli mesaj kaydediliyor
+      reply: Yanıtla
+      replying_to: “{text}” mesajına yanıt
+      report: Şikâyet et
+      report_prompt: Bu mesaj moderatörlere şikâyet edilsin mi? Moderatörler yalnızca bu mesajı ve ondan önceki beş mesajı görür; konuşmanın geri kalanını göremez.
+      report_reason: Sorun ne? (isteğe bağlı)
+      report_send: Şikâyet et
+      reported: Şikâyet edildi. Moderatörler inceleyecek.
+      request_from: '{name} sana mesaj göndermek istiyor'
+      request_group: '{name} grubuna eklendin'
+      request_help: Kabul edene kadar bunu gördüğünü bilmeyecekler. Yanıt vermek de kabul etmek anlamına gelir.
+      result_of: '{index} / {count}'
+      retry: Tekrar dene
+      say_hello: '{name} kişisine merhaba de.'
+      search_in_chat: Bu konuşmada ara
+      seen: Görüldü
+      seen_by: '{names} gördü'
+      send: Gönder
+      send_like: Beğeni gönder
+      send_voice: Sesli mesaj gönder
+      sending: Gönderiliyor…
+      today: Bugün
+      too_big: Bu resim {max} MB'tan büyük.
+      too_big_file: Bu dosya {max} MB'tan büyük.
+      typing: '{name} yazıyor'
+      unpin: Sabitlemeyi kaldır
+      uploading: Yükleniyor
+      video: Video
+      voice_note: Sesli mesaj · {length}
+      waiting_for_connection: Bağlantı bekleniyor — bağlanınca kendiliğinden gönderilecek
+      yesterday: Dün
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        split_away: '{discussion} içindeki {post_count} gönderi {new_discussion} tartışmasına ayrıldı'
+        split_into: '{post_count} gönderi yeni {discussion} tartışmasına ayrıldı'
+        tagged: '{discussion} kategorisi {old_tags} yerine {new_tags} olarak güncellendi'
+      fof-reactions:
+        post_reaction_removed: '{username} kullanıcısının {discussion} tartışmasında {postuser} kullanıcısının {post} gönderisine verdiği {reaction} tepkisi kaldırıldı'
+        post_reactions_removed: '{discussion} tartışmasında {postuser} kullanıcısının {post} gönderisinden {count, plural, one {# {reaction} tepkisi} other {# {reaction} tepkisi}} kaldırıldı'
+        reaction_created: '{reaction} tepkisi oluşturuldu'
+        reaction_deleted: '{reaction} tepkisi silindi'
+        reaction_disabled: '{reaction} tepkisi devre dışı bırakıldı'
+        reaction_enabled: '{reaction} tepkisi etkinleştirildi'
+        reaction_updated: '{reaction} tepkisinin {key} değeri {old_value} yerine {new_value} yapıldı'
+      masquerade:
+        field_created: '"{name}" profil alanı oluşturuldu'
+        field_deleted: '"{name}" profil alanı silindi'
+        field_permanently_deleted: '"{name}" profil alanı kalıcı olarak silindi'
+        field_restored: '"{name}" profil alanı geri yüklendi'
+        field_updated: '"{name}" profil alanı güncellendi'
+      tag:
+        created: '{tag} kategorisini oluşturdu'
+        deleted: '{tag} kategorisini sildi'
+        updated: '{tag} kategorisini güncelledi'
+      user:
+        impersonated: '{username} olarak oturum açtı'
+        impersonation_ended: '{username} hesabına geri döndü'
+flarum-gdpr:
+  lib:
+    data:
+      pushsubscriptions:
+        delete_description: Kullanıcıya ait tüm anlık bildirim aboneliklerini ve cihaz anahtarlarını siler.
+        export_description: Kullanıcıya ait tüm anlık bildirim aboneliklerini ve cihaz anahtarlarını dışa aktarır.
+flarum-nicknames:
+  api:
+    invalid_nickname_message: Bu görünen ad geçersiz. 2–30 karakter olmalı ve başka bir üye tarafından kullanılmamalı.
+  forum:
+    change_nickname:
+      nickname_placeholder: Görünen Ad
+      title: Görünen Adı Değiştir
+    edit_user:
+      nicknames_heading: Görünen Ad
+      nicknames_text: Görünen Ad
+    settings:
+      change_nickname_button: Görünen Adı Değiştir
+      nicknames_heading: Görünen Ad
+  ref:
+    change_nickname: Görünen Adı Değiştir
+    nickname: Görünen Ad
+  admin:
+    permissions:
+      edit_own_nickname_label: Kendi takma adını düzenle
+    settings:
+      max_label: Takma ad için en fazla karakter
+      min_label: Takma ad için en az karakter
+      set_on_registration_label: Kayıt sırasında takma ad belirlemeye izin ver
+      unique_label: Takma adlar benzersiz olsun
+      random_username_help: Kayıt formundaki "kullanıcı adı" alanını gizler ve yerine rastgele bir sayı kullanır. Ayrıca "takma ad" alanını zorunlu yapar. Yalnızca "Kayıt sırasında takma ad belirlemeye izin ver" açıkken geçerlidir.
+    wrong_driver: Bu eklentinin çalışması için <a><strong>Temel Ayarlar</strong></a> sayfasında görünen ad sürücüsü olarak "nickname" (takma ad) seçmelisin.
+flarum-suspend:
+  forum:
+    notifications:
+      user_suspended_indefinite_text: Süresiz olarak askıya alındın
+      user_suspended_text: '{timeReadable} süreyle askıya alındın'
+      user_unsuspended_text: Askıya alınman sona erdi
+    suspend_user:
+      display_message: Kullanıcıya gösterilecek mesaj
+      indefinitely_label: Süresiz askıya al
+      limited_time_label: Belirli bir süre askıya al…
+      not_suspended_label: Askıda değil
+      status_heading: Askıya alma durumu
+      title: '{username} kullanıcısını askıya al'
+    suspension_info:
+      indefinite: Bu süresiz bir uzaklaştırmadır
+    user_controls:
+      suspend_button: Askıya al
+flarum-tags:
+  admin:
+    basics:
+      tags_label: Kategoriler
+    edit_tag:
+      default_sort_text: Kullanıcı kendisi bir sıralama seçmediğinde, bu kategorideki tartışmaların hangi sırayla gösterileceğini belirler.
+      delete_tag_button: Kategoriyi Sil
+      delete_tag_confirmation: Bu kategoriyi silmek istediğinize emin misiniz? Kategorideki tartışmalar silinmeyecek.
+      title: Kategori Oluştur
+    nav:
+      tags_button: Kategoriler
+      tags_text: Tartışmaları düzenlemek için kategori listesini yönetin.
+    permissions:
+      allow_edit_tags_label: Kategori düzenlemeye izin ver
+      bypass_tag_counts_label: Kategori sayısı gereksinimlerini atla
+      restrict_by_tag_heading: Kategoriye Göre Sınırla
+      tag_discussions_label: Tartışmaların kategorisini değiştir
+    settings:
+      button_text: Kategori Seçin
+    tag_settings:
+      required_primary_heading: Gerekli Ana Kategori Sayısı
+      required_primary_text: Bir tartışmada kullanılabilecek en az ve en çok ana kategori sayısını girin.
+      required_secondary_heading: Gerekli Alt Etiket Sayısı
+      title: Kategori Ayarları
+    tags:
+      about_tags_text: Kategoriler tartışmaları düzenlemek için kullanılır. Ana kategoriler klasik forum bölümleri gibidir ve iki seviyeli bir hiyerarşide düzenlenebilir. İkincil etiketlerin sırası veya hiyerarşisi yoktur; konuları daha ince gruplamak için kullanışlıdır.
+      create_primary_tag_button: Ana Kategori Oluştur
+      create_secondary_tag_button: İkincil Etiket Oluştur
+      edit_tag_label: '{tag} kategorisini düzenle'
+      primary_heading: Ana Kategoriler
+  forum:
+    all_tags:
+      meta_description_text: Tüm Kategoriler
+      meta_title_text: Kategoriler
+    choose_tags:
+      edit_title: '{title} için Kategorileri Düzenle'
+      title: Tartışman için Kategori Seç
+    composer_discussion:
+      choose_tags_link: Kategori Seç
+    deck:
+      column_label: Kategori
+      tag_label: Kategori
+      tag_placeholder: Kategori ara
+    discussion_controls:
+      edit_tags_button: Kategorileri Düzenle
+    header:
+      back_to_tags_tooltip: Kategori Listesine Geri Dön
+    index:
+      tags_link: Kategoriler
+      untagged_link: Kategorisiz
+    post_stream:
+      tags_text: '{count, plural, one {{tags} kategorisini} other {{tags} kategorilerini}}'
+    tag:
+      meta_description_text: '{tag} kategorisindeki tüm tartışmalar'
+  lib:
+    gambits:
+      discussions:
+        tag:
+          hint: bir kategori adı, virgülle ayrılmış kategori adları listesi veya "kategorisiz"
+          key: kategori
+    tag_selection_modal:
+      bypass_requirements: Kategori gereksinimlerini atla
+      choose_primary_placeholder: '{count, plural, one {Ana kategori seçin} other {# ana kategori seçin}}'
+      choose_secondary_placeholder: '{count, plural, one {1 kategori daha seçin} other {# kategori daha seçin}}'
+      choose_tags_placeholder: '{count, plural, one {1 kategori daha seçin} other {# kategori daha seçin}}'
+      title: Kategori Seç
+  ref:
+    choose_tags: Kategori Seçin
+    choose_tags_placeholder: '{count, plural, one {1 kategori daha seçin} other {# kategori daha seçin}}'
+    tags: Kategoriler
+fof-anti-spam:
+  admin:
+    blocked_registrations:
+      evidence:
+        badge:
+          asn: AS{asn}
+          blacklisted: Kara listede
+          confidence: '%{value} güven'
+          frequency: '{count, plural, one {# kez bildirildi} other {# kez bildirildi}}'
+          last_seen: son görülme {when}
+          normalized: '{value} olarak normalleşir'
+          not_listed: Listede yok
+          tor_exit: Tor çıkış düğümü
+        blocked_by: Engelleyen
+        field:
+          email: E-posta
+          ip: IP
+          username: Kullanıcı adı
+        label: Neden engellendi
+        lookup_failed: StopForumSpam sorgusu başarısız oldu, bu deneme için veri dönmedi.
+        none: Bu deneme için StopForumSpam verisi kaydedilmedi.
+        rule:
+          blacklisted: Kara listede
+          confidence: Güven eşiği
+          deniedAsn: Engellenen ağ
+          formToken: Değiştirilmiş ya da yeniden kullanılmış kayıt formu
+          frequency: Bildirim eşiği
+          honeypot: Gizli alanı doldurdu
+          noForm: Kayıt formundan gönderilmedi
+          tooFast: Bir insanın yapamayacağı hızda gönderildi
+          torExit: Tor çıkış düğümü
+      filters:
+        apply: Uygula
+        clear: Aramayı temizle
+        help:
+          attemptedAt: Bir tarih ya da 2026-01-01..2026-02-01 gibi bir aralık. İki taraftan biri açık bırakılabilir.
+          email: Belirli bir e-posta adresiyle yapılan denemeler.
+          ip: Belirli bir IP adresinden yapılan denemeler.
+          multiple: Filtreleri aralarına boşluk koyarak birleştirin.
+          negate: Eşleşenleri hariç tutmak için filtrenin başına - koyun, örn. -provider:github
+          provider: Denemenin geldiği giriş sağlayıcısı.
+          reason: Denemeyi engelleyen kural. Yalnızca son engellemeler için kaydedilir.
+          toggle: Arama yardımı
+          username: Belirli bir kullanıcı adıyla yapılan denemeler.
+        hint: 'Filtreler:'
+        no-matches: Bu aramayla eşleşen engellenmiş kayıt yok.
+        placeholder: Ara ya da anahtar:değer ile filtrele
+      raw_data:
+        button: Ham veriyi görüntüle
+        copied: Panoya kopyalandı.
+        copy: Kopyala
+        copy_failed: Panoya kopyalanamadı.
+        title: Kaydedilen ham veri
+      reasons: Kaydedilen engelleme nedenleri
+      total: '{count, plural, one {# engellenen kayıt} other {# engellenen kayıt}}'
+    settings:
+      content-filter:
+        burst_minutes_label: Kaç dakika içinde
+        burst_post_count_help: Yeni bir hesap aşağıdaki dakika içinde başka tartışmalarda bu kadar gönderi yaptığında, yavaşlayana kadar sonraki her gönderisi spam olarak puanlanır. Tüm kullanıcılar izlense bile yalnızca yeni hesaplar için geçerlidir. Gönderinin yapıldığı tartışmadaki gönderiler sayılmaz; böylece tek bir konudaki sohbet yakalanmaz. Onay bekleyen gönderiler de sayılır, düzenlemeler sayılmaz. 0 ile sınır yoktur.
+        burst_post_count_label: Kısa sürede izin verilen gönderi sayısı
+        detect_local_phones_help: 0 ile başlayan, ülke kodu olmadan yazılmış numaraları da (örneğin 0532 123 45 67 veya 0212 555 00 00) sayar. Forumunuzdaki spamlar yerel numara içeriyorsa bunu açın. Bu numaraları tarih ve referans numaralarından ayırt etmek uluslararası numaralara göre daha zordur, bu yüzden arada sıradan bir gönderinin işaretlenmesini bekleyin. Telefon numarası algılamanın açık olması gerekir.
+        detect_local_phones_label: Yerel biçimdeki telefon numaralarını da algıla
+        detect_repeats_help: Yeni bir hesabın, son gönderilerinden biriyle aynı şeyi söyleyen gönderisini işaretler; büyük/küçük harf, boşluk, noktalama ve biçimlendirme yok sayılır. Tüm kullanıcılar izlense bile yalnızca yeni hesaplar için geçerlidir. 40 karakterden kısa gönderiler tekrarlanabilir; yazarın sildiği gönderiler sayılmaz.
+        detect_repeats_label: Tekrarlanan gönderileri algıla
+        flag_account_choose_button: Seç…
+        flag_account_default: 'Varsayılan: ilk yönetici'
+        flag_account_default_button: Varsayılanı kullan
+        flag_account_help: Moderasyon kuyruğunda otomatik spam bildirimlerinin yazarı olarak gösterilir. Varsayılanda bırakılırsa bildirimleri ilk yönetici yapar.
+        flag_account_in_code: extend.php içinde assignFlagsToModerator() ile seçildiği için buradan değiştirilemez.
+        flag_account_label: Spam bildirimlerini yapan hesap
+        flag_account_missing: Seçilen hesap artık mevcut değil; siz başka bir hesap seçene kadar spam bildirimlerini ilk yönetici yapacak.
+        flag_account_modal_title: Spam bildirimlerini yapacak hesabı seçin
+        held_email_domains_heading: Yeni Hesapları E-posta Alan Adına Göre Beklet
+        held_email_domains_help: E-posta adresi bu alan adlarından birinde olan yeni bir hesabın her gönderisi, içeriği ne olursa olsun onaya bekletilir. Her satıra bir alan adı yazın; alt alan adları da dahildir. Bir hesap, tüm kullanıcılar izlense bile yukarıdaki gönderi sayısı veya hesap yaşı sınırının içindeyken yeni sayılır; bekletilen gönderiler ancak onaylandıktan sonra gönderi sayısına eklenir. Yalnızca yeni gönderiler bekletilir; düzenlemeler içerik filtresine bırakılır. İçerik filtresi kapalıyken de geçerlidir. Yöneticiler ve grubu tartışma gizleyebilen kişiler hiçbir zaman bekletilmez. Bildirimleri görebilen moderatörlere eşleşen alan adı gösterilir.
+        held_email_domains_label: Bekletilecek e-posta alan adları
+        monitor_all_users_help: Yalnızca yeni hesapların değil, tüm gönderileri denetler. Bu kapalıyken bir hesap aşağıdaki sınırları geçtikten sonra bir daha incelenmez; bu da tam olarak hesabı ele geçirilmiş bir üyenin ya da bir süre zararsız gönderiler yapıp sonra spam atan birinin durumudur. Yöneticiler ve grubu tartışma gizleyebilen kişiler her durumda izlenmez. Köklü üyelerde daha fazla yanlış alarm görebilirsiniz; açmadan önce eşiklerinizi gözden geçirin.
+        monitor_all_users_label: Tüm kullanıcıları izle
+        monitor_window_held_only: Tüm kullanıcılar izlenirken aşağıdaki iki sınır yalnızca e-posta alan adı bekletmesinin hangi hesaplara uygulanacağını belirler.
+        posting_rate_heading: Gönderi Hızı
+      sign_ups:
+        heading: Kayıt Kontrolleri
+        honeypot_heading: Bal Küpü (Honeypot)
+        honeypot_help: Kayıt formuna insanların hiç görmediği bir alan ekler; bu alanı dolduran ya da bir insanın yapamayacağı kadar hızlı gönderilen kayıtları reddeder. StopForumSpam'in henüz tanımadığı botları yakalar, dışarıya veri göndermez ve gerçek kullanıcılardan hiçbir şey istemez.
+        honeypot_label: Form dolduran botları yakala
+        honeypot_min_seconds_help: Sayfanın sunulduğu andan itibaren sayılır. Formu okuyan bir insan bundan daha uzun sürer; bir betik sürmez.
+        honeypot_min_seconds_label: Kayıttan önce geçmesi gereken en az saniye
+        honeypot_strict_help: API'ye doğrudan istek atan betikler gibi formu kullanmadan gönderilen misafir kayıtlarını da reddeder. Hesapları API üzerinden oluşturan bir uygulama, SSO köprüsü ya da başka bir araç kullanıyorsanız bunu kapalı bırakın.
+        honeypot_strict_label: Formu atlayan kayıtları reddet
+        introduction: Bu forumun her kayıtta kendi başına yaptığı, dışarıdaki hiçbir servise veri göndermeyen kontroller. StopForumSpam sorguları için ayrı bir sekme vardır.
+        registration_throttle_help: Flarum birinin ne sıklıkla gönderi yapabileceğini sınırlar, ancak ne sıklıkla hesap açabileceğini sınırlamaz. 0 bu özelliği kapatır. Ofislerin, okulların ve mobil operatörlerin tek bir IP adresini birçok kişi arasında paylaştırdığını unutmayın.
+        registration_throttle_label: Aynı adresten iki kayıt arasındaki saniye
+        throttle_heading: Hız Sınırı
+      stopforumspam:
+        also_block_heading: Ayrıca Engelle
+        blocked_asns_help: Her satıra bir tane ya da virgülle ayırarak yazın. Bu ağlardan gelen kayıtlar, adres listede olsun ya da olmasın doğrudan reddedilir. StopForumSpam her sorguda ağ numarasını döndürür ve neredeyse hiç kimse bir foruma barındırma sağlayıcısından girmez. 31272 veya AS31272 biçimini kabul eder. Ağı kaydedip işlem yapmamak için boş bırakın.
+        blocked_asns_label: Engellenen ağ numaraları (ASN)
+        checks_heading: Neler Kontrol Edilsin
+        lookup_failed: 'StopForumSpam''e ulaşılamadı (ilk hata: {when}). Servis düzelene kadar kayıtlar kontrol edilmeden kabul ediliyor.'
+        max_listing_age_help: Yıllar önceki bir görülme, bugün kayıt olan kişi hakkında pek bir şey söylemez. 0, ne kadar eski olursa olsun her kaydı dikkate alır. Kara listedeki alan adları ve ağlar bundan bağımsız olarak her zaman uygulanır.
+        max_listing_age_label: Şundan eski kayıtları yok say (gün)
+        reporting_heading: Bildirme
+        thresholds_heading: Ne Zaman Engellensin
+    statistics:
+      awaiting_review: İnceleme bekleyen bildirimler
+      failed: Spam istatistikleri yüklenemedi.
+      heading: Spam Savunması
+      posts_flagged: Spam olarak bildirilen gönderiler
+      registrations_blocked: Engellenen kayıtlar
+      this_week: '{count, plural, one {bu hafta #} other {bu hafta #}}'
+      top_reason: 'En sık: {reason} ({count, plural, one {# engelleme} other {# engelleme}})'
+      total_label: Toplam
+      users_marked: Spamcı olarak işaretlenen kullanıcılar
+      view_all: Engellenen kayıtları görüntüle
+      vs_last_week: Önceki yedi günle karşılaştırıldığında
+    tabs:
+      content_filter: İçerik Filtresi
+      sign_ups: Kayıtlar
+      spammer_actions: Spamcı İşlemleri
+      stopforumspam: StopForumSpam
+    unsaved_changes: Bu sekmede kaydedilmemiş değişiklikler var. Kaydetmeden çıkılsın mı?
+  forum:
+    message:
+      honeypot:
+        refused: Kaydınızı tamamlayamadık.
+        reload: Kayıt formunda bir sorun oluştu. Lütfen sayfayı yenileyip tekrar deneyin.
+      profile:
+        blocked: Bu spam gibi göründüğü için kaydedilmedi. Lütfen bağlantıları ya da iletişim bilgilerini kaldırıp tekrar deneyin.
+    post:
+      held_email_domain_text: 'Onaya bekletildi: {domain} uzantılı e-posta adresine sahip yeni hesap'
+    sign_up:
+      trap_label: Bu alanı boş bırakın
+    spammer_modal:
+      success: '{username} spamcı olarak işaretlendi.'
+fof-badges:
+  forum:
+    notification:
+      badge_earned: '{badge} rozetini kazandın'
+fof-best-answer:
+  admin:
+    settings:
+      schedule_log_output_help: Her çalıştırmanın çıktısını storage/logs/fof-best-answer.log dosyasına ekler.
+  forum:
+    deck:
+      best_answers: En iyi cevaplar
+      unsolved_questions: Çözülmemiş sorular
+    discussion:
+      jump_to_best_answer_button: En iyi yanıta git
+  lib:
+    gambits:
+      qna:
+        key: soru
+      solution:
+        key: cozum
+fof-bookmarks:
+  forum:
+    page:
+      hero:
+        subtitle: Daha sonra dönmek için kaydettiğin tartışmalar ve mesajlar.
+        title: Yer imleri
+fof-default-user-preferences:
+  admin:
+    settings:
+      followAfterCreate: Oluşturduktan sonra takip et
+      followAfterCreate-help: Etkinleştirildiğinde yeni kullanıcılar oluşturdukları tartışmaları otomatik olarak takip eder.
+fof-discussion-views:
+  admin:
+    settings:
+      dedupe_ttl: Bir ziyaretçinin tekrar sayılması için geçmesi gereken saniye
+      dedupe_ttl_help: Bir ziyaretçi bir tartışmayı gördükten sonra ne kadar süre hatırlanacağı; böylece sayfayı yenilemek ya da geri dönmek tekrar sayılmaz. Her görüntülemeyi saymak için 0 yazın.
+fof-drafts:
+  forum:
+    dropdown:
+      scheduled_icon_tooltip_formatter: L [saat] LT
+      scheduled_icon_tooltip: '{datetime} için zamanlandı'
+    schedule_draft_modal:
+      scheduled_text: '{datetime} tarihinde yayımlanmak üzere zamanlandı.'
+      scheduled_error: 'Taslak zamanlanamadı: {error}.'
+      unschedule_button: Zamanlamayı kaldır
+      unschedule_warning: Bu taslağın zamanlamasını kaldırmak istediğine emin misin?
+      no_title_error: Zamanlamadan önce bir tartışma başlığı girmen gerekiyor.
+  admin:
+    settings:
+      schedule_log_output: Zamanlayıcı çıktısını günlük dosyasına ekle
+      schedule_on_one_server: Görev zamanlayıcıda 'onOneServer()' yönergesini kullan (Redis/Memcache gerekir)
+  ref:
+    schedule_draft: Taslağı zamanla
+fof-follow-tags:
+  email:
+    newDiscussionInTag:
+      html:
+        body: '{actor_display_name}, takip ettiğin bir kategoride tartışma başlattı: [{discussion_title}]({discussion_url})'
+      subject: '[Kategori | Yeni Tartışma] {title}'
+    newDiscussionTag:
+      html:
+        body: '{actor_display_name}, {author_display_name} tarafından başlatılan tartışmayı takip ettiğin bir kategoriye taşıdı: [{discussion_title}]({discussion_url})'
+      subject: '[Kategori | Kategori Değişti] {title}'
+    newPostInTag:
+      html:
+        body: '{actor_display_name}, takip ettiğin bir kategorideki tartışmaya yanıt yazdı: [{discussion_title}]({post_url})'
+      subject: '[Kategori | Yeni Gönderi] {title}'
+  forum:
+    notifications:
+      new_discussion_tag_text: '{username} kategoriyi değiştirdi'
+    prompt:
+      choose_button: Takip edeceğin kategorileri seç
+      modal_title: Takip edeceğin kategorileri seç
+    settings:
+      notify_new_discussion_label: Takip ettiğim bir kategoride tartışma başlatıldığında
+      notify_new_discussion_tag_label: Takip ettiğim bir tartışmanın kategorisi değiştirildiğinde
+      notify_new_post_label: Takip ettiğim bir kategorideki tartışmaya yanıt yazıldığında
+    user:
+      settings:
+        heading: Kategorileri Takip Et
+  ref:
+    filtering_options:
+      tags: Takip Edilen Kategoriler
+fof-ignore-users:
+  forum:
+    messages:
+      cannot_send_text: Bu konuşmaya mesaj gönderemezsin.
+    post:
+      toggle_label: Engellediğin kullanıcının mesajını göster veya gizle
+fof-impersonate:
+  admin:
+    settings:
+      require_reason_help: Gerekçe, hangisi etkinse denetim kaydına (flarum/audit) ve/veya her iki hesaba moderatör notu (fof/moderator-notes) olarak kaydedilir.
+      title: Kullanıcı Gözünden Bakma
+    permissions:
+      login: Diğer kullanıcılar olarak giriş yap
+  forum:
+    notice:
+      message: Şu anda {username} olarak görüntülüyorsun.
+    return:
+      button: '{username} hesabına dön'
+fof-links:
+  admin:
+    edit_link:
+      options_label: Seçenekler
+      title_child: '{parent} altında yeni bağlantı'
+      type:
+        external:
+          help: Bu forumun dışındaki bir adresi açar.
+          label: Başka bir siteye gider
+        heading: Bu bağlantı ne yapar
+        internal:
+          help: Sayfa yeniden yüklenmeden açılır.
+          label: Bu forumdaki bir sayfaya gider
+        label:
+          help: Etiket olarak gösterilir. Bir bağlantı grubunu adlandırmak için kullanın.
+          label: Hiçbir yere gitmez
+      url_help:
+        external: <code>https://</code> dahil tam adres.
+        internal: Adresin {baseUrl} sonrasındaki, eğik çizgiyle başlayan kısmı.
+      url_placeholder:
+        external: https://ornek.com
+        internal: /tags
+      use_rel_me_help: Bağlantı verdiğiniz sitenin bu forumun size ait olduğunu doğrulamasını sağlar.
+      visibility:
+        guest-only:
+          help: Giriş yapmış kullanıcılar bu bağlantıyı görmez. Yukarıdaki izin {everyone} olarak ayarlanmalıdır.
+    links:
+      add_child_accessible_label: '{title} altına bağlantı ekle'
+      audience_everyone: Herkes görebilir
+      description: Bunlar forumunuzun gezinme menüsünde burada listelendikleri sırayla görünür.
+      edit_accessible_label: '{title} bağlantısını düzenle'
+      flag:
+        guest_only: Yalnızca misafirler
+        new_tab: Yeni sekme
+        rel_me: rel="me"
+      moved: '{title}, {total} öğe içinde {position}. sıraya taşındı.'
+      moved_under: '{title}, {parent} altına taşındı; {total} öğe içinde {position}. sırada.'
+      no_url: Bağlantı yok, etiket olarak gösterilir
+      reorder_accessible_label: '{title} bağlantısını sırala. Yukarı, aşağı, üstteki bağlantının içine ya da dışarı taşımak için ok tuşlarını kullanın.'
+      reorder_help: Sıralamak için bir bağlantıyı tutamacından sürükleyin ya da başka bir bağlantının altına yerleştirmek için onun üzerine bırakın. Tutamaç seçiliyken ok tuşları da aynı işi yapar.
+      reorder_loading: Liste sıralama için hazırlanıyor…
+    settings:
+      heading: Ayarlar
+      show_icons_only_on_tablet_help: Gezinme alanının en dar olduğu 768px ile 991px genişlik arasında bağlantı başlıklarını gizler. Başlıklar ekran okuyucular tarafından yine okunur.
+  forum:
+    header:
+      toggle_dropdown_accessible_label: '{title} altındaki bağlantıları göster'
+fof-masquerade:
+  admin:
+    buttons:
+      add-option: Seçenek ekle
+      delete-field-permanently: '"{field}" alanını kalıcı olarak sil'
+      delete-option: Seçeneği sil
+      restore-field: '"{field}" alanını geri yükle'
+    fields:
+      create: Alan oluştur
+      delete-permanently-confirmation: '"{field}" alanı ve kaydedilmiş tüm yanıtları kalıcı olarak silinsin mi? Bu işlem geri alınamaz.'
+      hide-empty-fields: Boş alanları gizle
+      is_restricted: Alan görünürlüğünü kısıtla
+      permissions: Alan görünürlüğü
+      permissions-alert: İzin ayarları, alan oluşturulduktan sonra düzenlerken kullanılabilir olacak.
+      trash: Çöp kutusu
+  forum:
+    profile:
+      empty-text: Bu kullanıcı henüz hiçbir profil alanını doldurmadı.
+  lib:
+    gambits:
+      answer:
+        hint: kullanıcı profil alanlarının değerleri
+        key: yanit
+fof-merge-discussions:
+  api:
+    error:
+      into_itself: Bir tartışma kendisiyle birleştirilemez.
+      redirecting_failed: Birleştirilen tartışmalar yönlendirilemedi.
+  forum:
+    modal:
+      preview_truncated: '{total} gönderiden {from}–{to} arası gösteriliyor.'
+      ordering_heading: Birleştirme sırası
+fof-prevent-necrobumping:
+  forum:
+    composer:
+      inactive_discussion_alert:
+        confirmed: Uzun süredir etkin olmayan bir tartışmaya yanıt veriyorsunuz.
+        undo: Geri al
+fof-profile-image-crop:
+  forum:
+    modal:
+      crop_too_small: Seçilen alan çok küçük — net bir avatar için en az {size}×{size} piksel seç.
+fof-pwa:
+  admin:
+    nav:
+      pwa_button: Mobil Uygulama (PWA)
+      pwa_text: Flarum'u telefonlara uygulama gibi kurulabilen bir Progresif Web Uygulaması olarak çalıştırın.
+    pwa:
+      about:
+        description_label: Açıklama
+        description_text: Açıklamayı yönetim panelindeki 'Temel Ayarlar' sayfasından belirleyebilirsiniz.
+        heading: Hakkında
+        long_name_label: Uzun ad
+        long_name_text: Uygulamanın kullanıcıya gösterilen adı.
+        short_name_label: Kısa ad
+        short_name_text: Uzun ad için yeterli alan olmadığında (örneğin ana ekran simgesinin altında) gösterilen ad.
+      colors:
+        background_color_label: Arka plan rengi
+        background_color_text: Uygulama yüklenirken gösterilen açılış ekranının arka plan rengi. Uygulama yüklendikten sonra kullanılmaz.
+        heading: Renkler
+        theme_color_label: Tema rengi
+        theme_color_text: Bazı cihazlar uygulamayı gösterirken bu rengi kullanır; örneğin Android'in uygulama değiştiricisinde sitenin çevresindeki renk.
+      firebase_config:
+        heading: Firebase
+        help_text: Uygulamanızı Apple App Store'da yayımlarken anlık bildirim desteği eklemek için Firebase kullanmanız gerekir. Firebase hizmet yapılandırmanızı oluşturup buraya yükleyin. <a>Belgelere göz atın</a>.
+        upload_file: Dosya yükle
+        upload_successful: Firebase yapılandırmanız başarıyla yüklendi.
+      heading: Mobil Uygulama (PWA) Yapılandırması
+      logo_heading: Logolar ve Simgeler
+      logo_size_text: '{size}x{size} piksele ölçeklenecek bir logo yükleyin.'
+      logo_text: 'Uygulamanın kurulabilmesi için en az bir logo yüklemeniz gerekir. Tüm logolar kare olmalıdır; kare değilse yeniden boyutlandırılır ve gerilebilir.
+
+
+        Aşağıda birkaç boyut seçeneği vardır. Daha fazla cihazı desteklemek için mümkün olduğunca çoğuna logo yüklemenizi öneririz.
+
+
+        Küçük boyutlar için de tek bir büyük logo yükleyebilirsiniz. Örneğin 1000x1000 piksellik bir logoyu aşağıdaki TÜM alanlara yükleyebilirsiniz. Ancak 512x512 alanına 50x50 piksellik bir logo yüklerseniz çok fazla gerilir.
+
+        '
+      maintenance:
+        debug_label: Hata ayıklama modunu etkinleştir
+        debug_text: Bildirimlerle ilgili bilgileri `storage/logs` klasörüne yazar. Günlüklerin gereksiz yere dolmaması için genellikle kapalı tutulmalıdır.
+        heading: Bakım
+        reset_vapid_button: VAPID anahtarlarını sıfırla
+        reset_vapid_confirm: VAPID anahtarlarını sıfırlamak mevcut anahtarları kullanan tüm abonelikleri kaldırır; kullanıcılar siteyi bir sonraki ziyaretlerine kadar bildirim alamaz. Bunu yalnızca anlık bildirimleri ilk kez kurarken ya da bildirimler hiç çalışmıyorsa ve yukarıda eksik VAPID anahtarı uyarısı varsa yapın.
+        reset_vapid_success: VAPID anahtarları sıfırlandı. {count} abonelik sıfırlandı. Güncel durum raporunu görmek için sayfayı yenileyin.
+        reset_vapid_text: VAPID anahtarlarını yeniden oluşturur ve mevcut anahtarları kullanan tüm abonelikleri siler.
+      other:
+        display_label: Görüntüleme modu
+        display_options:
+          browser: Tarayıcı
+          fullscreen: Tam ekran
+          minimal_ui: Minimal arayüz
+          standalone: Bağımsız
+        display_text: 'Uygulama simgesinden açıldığında nasıl görüneceği:
+
+
+          Bağımsız: Tarayıcının adres çubuğu olmadan ayrı bir uygulama penceresi.
+
+          Minimal arayüz: Bağımsız gibi, ancak geri ve yenile gibi temel gezinme düğmeleriyle.
+
+          Tam ekran: Tarayıcı denetimleri olmadan tüm ekranı kullanır.
+
+          Tarayıcı: Normal bir tarayıcı sekmesinde veya penceresinde açılır.
+
+
+          Seçilen mod desteklenmiyorsa tarayıcılar başka bir moda geçebilir.
+
+          '
+        heading: Diğer
+        orientation_label: Ekran yönü
+        orientation_options:
+          any: Herhangi
+          landscape: Yatay
+          landscape_primary: Yatay (birincil)
+          landscape_secondary: Yatay (ikincil)
+          natural: Doğal
+          portrait: Dikey
+          portrait_primary: Dikey (birincil)
+          portrait_secondary: Dikey (ikincil)
+        orientation_text: 'Herhangi: Uygulama cihazla birlikte döner.
+
+          Doğal: Cihazın olağan yönü; telefonlarda genellikle dikey, monitörlerde yatay.
+
+          Dikey: Uygulama dikey kalır.
+
+          Yatay: Uygulama yatay kalır.
+
+
+          Dikey ve Yatay, aralarında 180 derece olan iki konuma izin verir. Yalnızca birini kullanmak için Birincil veya İkincil seçeneğini seçin. Telefonda Dikey (birincil) genellikle normal duruş, Dikey (ikincil) ise baş aşağıdır. Yatayda hangi yönün birincil olduğu cihaza bağlıdır.
+
+
+          Bazı tarayıcılar ve cihazlar seçilen yönü yok sayabilir.
+
+          '
+        push_notif_preference_default_to_email_label: Anlık bildirim tercihlerini e-posta tercihlerinden al
+        push_notif_preference_default_to_email_text: Etkinleştirilirse, e-posta bildirimi varsayılan olarak açık olan tüm bildirim türlerinde anlık bildirimler de varsayılan olarak açık olur. Kapalıysa anlık bildirimler varsayılan olarak kapalıdır.
+        push_notification_ttl_label: Anlık bildirim geçerlilik süresi
+        push_notification_ttl_text: Teslim edilemeyen anlık bildirimlerin süresi dolmadan önce bildirim servisinde ne kadar bekletileceği (saniye).
+        share_buttons_label: Paylaş düğmelerini etkinleştir
+        share_buttons_text: Etkinleştirilirse tartışmalara, mesajlara ve kullanıcılara bir "Paylaş" düğmesi eklenir.
+        user_max_subscriptions_label: Kullanıcı başına en fazla anlık bildirim aboneliği
+        user_max_subscriptions_text: Her kullanıcı aynı anda kaç anlık bildirim aboneliğine sahip olabilir? Bir kullanıcıya bildirim gittiğinde her abonelik için ayrı bir API çağrısı yapılır. Her abonelik genellikle kullanıcının kullandığı bir tarayıcıya karşılık gelir.
+        window_controls_overlay_label: Pencere Denetimleri Katmanını etkinleştir
+        window_controls_overlay_text: 'Destekleyen bir masaüstü tarayıcıda Pencere Denetimleri Katmanı, seçilen görüntüleme modunun önüne geçer.
+
+
+          Etkinleştirilirse kullanıcılar tarayıcının başlık çubuğunu gizleyerek daha yerel uygulama benzeri bir deneyim yaşayabilir. Katmanın gerçekten uygulanıp uygulanmayacağı kullanıcının tercihine ve tarayıcı uyumluluğuna bağlıdır. Bunu etkinleştirdikten sonra başlık çubuğunuzu CSS/JS ile özelleştirmeniz gerekir; aksi halde denetimler forumun üst menüsünün üzerine biner ve pencere neredeyse sürüklenemez hale gelir.
+
+
+          Ayrıca bakınız: <compatibilitylink>Pencere Denetimleri Katmanı tarayıcı uyumluluğu</compatibilitylink> ve <learnlink>Microsoft Learn''de Pencere Denetimleri Katmanı hakkında</learnlink>
+
+          '
+      refreshed_message: Uygulama yapılandırması başarıyla yenilendi.
+      status_check_heading: Durum Kontrolü
+      submit_button: Ayarları Kaydet
+      text: Flarum sitenizi telefona kurulabilen bir progresif web uygulaması olarak çalıştırın! Bu, sitenizi otomatik olarak uygulama mağazasına koymaz; bunun yerine kullanıcılara sitenizi 'Ana Ekrana Ekle' seçeneği sunar. Bazı durum kontrolleri sağlıyoruz, ancak en iyi test yöntemi uygulamayı kendiniz kurmayı denemektir. 'Bu uygulamayı yükle' istemlerinin tarayıcılar tarafından yönetildiğini ve geliştiriciler, yöneticiler ya da programlar tarafından tetiklenemeyeceğini unutmayın. Sitenizin belgelerine kurulum talimatları eklemeyi düşünebilirsiniz.
+    status:
+      config_no_https: config.php dosyanızdaki adres HTTPS kullanmıyor. Progresif web uygulamalarının çalışması için HTTPS gereklidir.
+      key_gen_failed: 'Anlık bildirimler için gereken anahtarlar oluşturulamadı. Hata mesajı: {error}'
+      no_logo: Uygulamanın kurulabilmesi için en az 144x144 piksel boyutunda en az bir logo yüklemelisiniz.
+      no_name: Uygulamanın çalışması için tam bir ad girmelisiniz.
+      no_vapid_keys: VAPID anahtarı bulunamadı. Anlık bildirim göndermek için bu anahtarlar gereklidir. Aşağıdan VAPID anahtarlarını sıfırlayabilirsiniz.
+      possible_https_disabled: Siteniz HTTPS üzerinde çalışmıyor olabilir. Önbelleği temizlemek (yönetim paneli => araçlar düğmesi) işe yarayabilir. Site HTTPS kullanıyorsa bunu dikkate almayın; kullanmıyorsa progresif web uygulamalarının çalışması için HTTPS'in gerekli olduğunu unutmayın.
+      success: Herhangi bir sorun bulunamadı!
+      suggest_gmp: Sunucunuzda gmp PHP eklentisi etkin görünmüyor. Zorunlu değildir ama performansı artırabileceği için önerilir. Bazı paylaşımlı barındırma hizmetleri desteklemeyebilir.
+  api:
+    endpoint_host_not_allowed: Tarayıcının kullandığı "{host}" bildirim servisine izin verilmediği için anlık bildirimler açılamadı. Lütfen forum yöneticisiyle iletişime geç.
+    endpoint_https_required: Tarayıcın geçersiz bir bildirim servisi adresi ("{url}") gönderdiği için anlık bildirimler açılamadı. Geçerli bir HTTPS adresi gereklidir.
+    keys_invalid: Tarayıcın geçersiz şifreleme anahtarları gönderdiği için anlık bildirimler açılamadı. Lütfen bildirimleri tekrar açmayı dene.
+  forum:
+    alerts:
+      optin: Bu forum bu cihaza anlık bildirim gönderebilir. Bildirimleri açmak ister misin?
+      optin_declined: Anlık bildirimler engellendi. İstediğin zaman tarayıcı ayarlarından izin verebilirsin.
+      optin_deferred: Anlık bildirimler açılmadı. İstediğin zaman bildirim ayarlarından açabilirsin.
+      optin_enable_button: Bildirimleri aç
+      optin_success: Bu cihazda anlık bildirimler açıldı.
+    discussion_controls:
+      share_button: Paylaş
+    notifications_help:
+      browser_notifications_title: Tarayıcı bildirimleri nasıl açılır?
+      chromium_instructions: Tarayıcında adres çubuğunun yanındaki site bilgisi simgesine (kilit veya ayar simgesi) tıkla. "Site ayarları"nı (veya "İzinler"i) seç, "Bildirimler"i bul ve ayarı "İzin ver" olarak değiştir.
+      chromium_title: Google Chrome, Microsoft Edge ve Android
+      description: Daha önce bildirimleri engellediysen, cihazında yeniden açmak için aşağıdaki adımları izle.
+      firefox_instructions: Adres çubuğunun yanındaki kilit simgesine tıkla. "Bildirimler" "Engellendi" olarak görünüyorsa yanındaki "X" ile kısıtlamayı kaldır. Sayfayı yenile ve sorulduğunda bildirimlere izin ver.
+      firefox_title: Mozilla Firefox
+      safari_ios_instructions: iOS'ta anlık bildirimler için uygulamanın kurulu olması gerekir. Safari'de "Paylaş" simgesine dokun ve "Ana Ekrana Ekle"yi seç. Ardından yeni kurulan uygulamayı aç. Bildirimler engelliyse iOS "Ayarlar" uygulamasını aç, "Bildirimler"e git, listeden bu uygulamayı seç ve "Bildirimlere İzin Ver"i aç.
+      safari_ios_title: Apple iPhone ve iPad (iOS/iPadOS)
+      safari_mac_instructions: Ekranın üstündeki Safari menüsünü aç ve "Ayarlar"ı (veya "Tercihler"i) seç. "Web Siteleri" sekmesine tıkla, soldaki listeden "Bildirimler"i seç, bu forumu bul ve ayarı "İzin Ver" olarak değiştir.
+      safari_mac_title: Apple Safari (macOS)
+      title: Anlık bildirimleri aç
+    post_controls:
+      share_api:
+        title: '{username} kullanıcısının "{title}" konusuna yanıtı'
+      share_button: Paylaş
+    settings:
+      push_header: Anlık
+      pwa_notifications:
+        access_default: Tarayıcı kısıtlamaları nedeniyle bu cihazda anlık bildirim almak için izin vermen gerekiyor.
+        access_default_button: İzin ver
+        access_denied: Bu cihazda anlık bildirim almak için tarayıcı ayarlarını değiştirmen gerekiyor.
+        access_denied_button: Nasıl yapılır?
+        no_browser_support: Bu tarayıcı anlık bildirimleri desteklemiyor.
+        no_browser_support_button: Daha fazla bilgi
+    user_controls:
+      share_button: Paylaş
+  views:
+    offline:
+      header: Bağlantı hatası
+      text: Bu uygulama internet bağlantısı gerektirir; çevrimdışı kullanılamaz. Lütfen bağlantını kontrol et.
+fof-redis:
+  admin:
+    stats:
+      data:
+        blocked-clients: Engellenen İstemciler
+        connected-clients: Bağlı İstemciler
+        eviction-policy: Tahliye Politikası
+        memory-max: Azami Bellek
+        memory-peak: En Yüksek Bellek
+        memory-used: Kullanılan Bellek
+        ops-per-sec: Saniyedeki İşlem
+      error:
+        fetch_failed: Redis istatistikleri alınamadı. Lütfen Redis yapılandırmanızı kontrol edin.
+      eviction_policy_tooltip: 'Tahliye politikası, maxmemory sınırına ulaşıldığında deponun neyi sileceğini nasıl seçtiğidir. Varsayılan `noeviction`''dır: bellek sınırına ulaşıldığında yeni değerler kaydedilmez. Belgeleri görmek için tıklayın.'
+      eviction_pressure: bellek baskısı
+      eviction_warning: Bellek kullanımı maxmemory'nin %{usage}'ında ve tahliye politikası "{policy}"; bu yüzden anahtarlar (kuyruk verileri dahil) yakında silinebilir. maxmemory'yi artırın ya da kuyruğu daha fazla alanı olan ayrı bir veritabanına taşıyın.
+      kv_heading: Anahtar-Değer Deposu
+      refresh_button: Yenile
+fof-split:
+  api:
+    errors:
+      end_before_start: Ayırma, başladığı gönderide ya da sonrasında bitmelidir.
+      first_post: Bir tartışmanın ilk gönderisi ayrılamaz.
+fof-terms:
+  forum:
+    accept-modal:
+      accept: Onayla
+      close: Teşekkürler! Foruma kaldığın yerden devam edebilirsin.
+      i-accept: Yeni <a>{policy}</a> metnini okudum ve kabul ediyorum
+      title: Şartlar güncellendi
+      updated-at: 'Son güncelleme: {date}'
+      updated-recently: Son ziyaretinden bu yana güncellendi
+    signup:
+      i-accept: <a>{policy}</a> metnini okudum ve kabul ediyorum
+      must-accept: '{policy} metnini kabul etmelisin.'
+    update-alert:
+      can-accept-message: Şartlarımızı güncelledik. Foruma devam etmek için yeni şartları onaylaman gerekiyor.
+      can-accept-optional-message: Şartlarımızı güncelledik. Dilediğin zaman inceleyebilirsin.
+      close: Kapat
+      must-accept-message: Yeni şartları inceleyip onaylayana kadar hesabın geçici olarak kısıtlandı.
+      review: İncele ve onayla
+fof-upload:
+  admin:
+    help_texts:
+      local_cdn: İsteğe bağlı. <code>assets/files</code> klasörünü bir CDN üzerinden sunuyorsanız temel URL'sini girin; yüklenen dosya bağlantıları onu kullanır. Dosyaları doğrudan forumunuzdan sunmak için boş bırakın.
+      mime_order: Kurallar yukarıdan aşağıya eşleştirilir ve ilk eşleşen kazanır; bu yüzden daha özel kuralları genel olanların üstüne koyun.
+      s3_acl_unsupported: '{provider} ACL desteklemez. Herkese açık erişimi sağlayıcının kendi panelinden yönetin.'
+      s3_endpoint: Sağlayıcının S3 API adresi; kovanızın herkese açık adresi değil. Amazon S3 için gerekmez.
+      s3_path_style: Kovayı alan adı yerine URL yoluna koyar. MinIO ve Cloudflare R2 için gereklidir; sağlayıcı seçtiğinizde otomatik ayarlanır.
+      s3_provider: Sağlayıcınızı seçmek aşağıdaki uç nokta biçimini, adresleme stilini ve ACL desteğini belirler. Sağlayıcınız listede yoksa "Diğer S3 uyumlu" seçeneğini seçin.
+      storage_configure_another: Başka depolama servisleri de kurulu ama henüz yapılandırılmamış. Birini yapılandırmak, onu bir dosya türüne atayana kadar dosyaların nereye gittiğini değiştirmez.
+      storage_intro: Yapılandırdığınız ya da bir dosya türünün kullandığı servisler burada gösterilir. Bir servisi, hiçbir dosya türünü ona yönlendirmeden önce de kurabilirsiniz; hazır olduğunuzda Dosyalar sekmesinden atayın.
+      storage_not_installed: Amazon S3, Cloudflare R2 ya da Qiniu mu arıyorsunuz? Bunlar ek bir paket gerektirir — <a>depolama bağdaştırıcılarını kurma</a> bölümüne bakın.
+      thumbnail_quality: WebP ve JPEG küçük resimlerine uygulanan 1 ile 100 arası kodlama kalitesi. Yüksek değerler daha net görünür ama daha büyük dosyalar üretir. GIF ve PNG küçük resimleri kayıpsızdır ve bu ayarı yok sayar. Mevcut küçük resimler, backfill komutuyla yeniden oluşturulana kadar mevcut kalitelerini korur.
+    labels:
+      aws-s3:
+        acl: Erişim Kontrol Listesi (ACL)
+        provider: Sağlayıcı
+      client_extension:
+        placeholder: örn. docx, xlsx, epub
+      imgur:
+        client_id: Imgur istemci kimliği
+        deprecated: Imgur artık API istemci kimliği vermediği için bu bağdaştırıcı kullanımdan kaldırıldı ve gelecekteki bir sürümde silinecek. Bu dosya türlerini başka bir depolama bağdaştırıcısına taşıyın.
+      mime_presets:
+        archives: Arşivler (zip, tar, 7z)
+        audio: Ses
+        documents: Word belgeleri
+        images: Görseller
+        pdf: PDF belgeleri
+        php_ini_values: <code>php.ini</code> değerleriniz <code>post_max_size={post}</code> ve <code>upload_max_filesize={upload}</code>. Buradaki değerin bu sınırların altında olduğundan emin olun ya da sınırları buna göre ayarlayın. <code>Nginx</code> kullanıyorsanız <code>client_max_body_size</code> değerinin de seçtiğiniz sınır için yeterli olduğundan emin olun.
+        spreadsheets: Elektronik tablolar
+        title: Genel tercihler
+        video: Video
+      preferences:
+        max_file_size_equivalent: <code>{kb}</code> KB olarak saklanır ({value}).
+        mime_add_custom: Özel desen…
+        mime_add_prompt: Dosya türü ekle…
+        mime_add_subtype: Dosya biçimi ekle
+        mime_add_subtype_placeholder: örn. webp
+        mime_advanced_pattern: Gelişmiş desen
+        mime_column_display: Gösterim şekli
+        mime_column_display_help: 'Dosyanın gönderide nasıl görüneceği: satır içi önizleme, indirme düğmesi vb.'
+        mime_column_pattern: Dosya türü
+        mime_column_pattern_help: Bu kuralın uygulandığı dosya çeşitleri; dosyanın MIME türüyle eşleştirilir.
+        mime_column_permission: İzin etiketi
+        mime_column_permission_help: İsteğe bağlı. Buraya bir ad yazmak, bu dosyaları kimlerin yükleyebileceğini yönetebilmeniz için bir izin oluşturur.
+        mime_column_storage: Saklama yeri
+        mime_column_storage_help: Bu türdeki dosyaların hangi depolama servisine yükleneceği.
+        mime_edit_pattern: Deseni düzenle
+        mime_move_down: Aşağı taşı (daha sonra eşleşir)
+        mime_move_up: Yukarı taşı (daha önce eşleşir)
+        mime_remove_subtype: '{subtype} kaldır'
+        mime_type_add: Bu dosya türünü ekle
+        mime_type_remove: Bu dosya türünü kaldır
+        mime_use_simple: Basit düzenleyiciyi kullan
+      storage:
+        configure_another: Başka bir depolama servisi yapılandır ({count} kullanılabilir)
+        hide_unused: Kullanılmayan servisleri gizle
+      thumbnails:
+        quality: Küçük resim kalitesi
+    permissions:
+      delete_own_uploads_label: Kendi yüklemelerini silebilir
+    tabs:
+      advanced: Gelişmiş
+      files: Dosyalar
+      images: Görseller
+      storage: Depolama
+      unsaved_changes: Bu sekmede kaydedilmemiş değişiklikler var
+      unsaved_hint: Kaydedilmemiş değişiklikleriniz var.
+    warnings:
+      max_file_size_exceeds_php: Bu değer, sunucunuzun geçerli yükleme sınırı olan <strong>{limit}</strong> değerini aşıyor (<code>post_max_size={post}</code>, <code>upload_max_filesize={upload}</code>). Bu sınırdan büyük yüklemeler bu ayardan bağımsız olarak PHP tarafından reddedilir. Bu değeri düşürün ya da <code>php.ini</code> içindeki sınırları (Nginx kullanıyorsanız <code>client_max_body_size</code> değerini de) yükseltin.
+  forum:
+    display_name:
+      help: Dosya adı yerine indirme üzerinde gösterilir. Dosya adını kullanmak için olduğu gibi bırakın.
+      insert: Ekle
+      title: Bu indirmeyi adlandır
+      title_plural: Bu indirmeleri adlandır
+      use_file_name: Dosya adlarını kullan
+    states:
+      permission_required: İzin gerekli
+  lib:
+    file_list:
+      load_error: Dosyalar yüklenemedi. Lütfen tekrar deneyin.
+forumaker-profile-cover:
+  admin:
+    delete_error: Küçük resimler silinemedi
+    delete_success: Tüm küçük resimler silindi
+    delete_thumbnails: Küçük resimleri sil
+    delete_thumbnails_confirm: Tüm küçük resimler silinsin mi?
+    max_size: En büyük kapak resmi boyutu (KB)
+    permission:
+      set_cover: Profil kapak resmi ekleyebilir
+    recreate_error: Küçük resimler yeniden oluşturulamadı
+    recreate_success: Küçük resimler yeniden oluşturuldu
+    recreate_thumbnails: Küçük resimleri yeniden oluştur
+    recreate_thumbnails_confirm: Tüm küçük resimler yeniden oluşturulsun mu?
+    sections:
+      general: Genel
+      thumbnails: Küçük resimler
+    thumbnail_width: Küçük resim en büyük genişliği (px)
+    thumbnail_width_help: Kapak, genişliği bu değere eşit olacak şekilde orantılı küçültülür. Varsayılan 500.
+    thumbnails: Küçük resim oluştur
+    thumbnails_help: Kullanıcı kartları ve üye listesi gibi küçük alanlarda kullanılan, boyutu küçültülmüş bir kapak oluşturur. Kapalıysa tam boyutlu kapak kullanılır.
+  forum:
+    added:
+      error: Görsel yüklenemedi
+      success: Kapak resmin güncellendi
+    cancel_crop: Vazgeç
+    choose_another: Başka görsel seç
+    choose_image: Görsel seç
+    cover: Kapak Resmi
+    crop_area: Kırpma alanı
+    crop_error: Görsel açılamadı
+    crop_existing: Kırp
+    crop_instructions: Çerçeveyi boyutlandırmak için bir köşeden sürükle
+    crop_resize_ne: Çerçeveyi sağ üst köşeden boyutlandır
+    crop_resize_nw: Çerçeveyi sol üst köşeden boyutlandır
+    crop_resize_se: Çerçeveyi sağ alt köşeden boyutlandır
+    crop_resize_sw: Çerçeveyi sol alt köşeden boyutlandır
+    edit_cover: Kapak Resmini Düzenle
+    file_too_large: 'Dosya çok büyük. En büyük boyut: {size}'
+    notice: 'En büyük boyut: {size}. Önerilen: 21:9 oranında, en az 1600×400 piksel.'
+    removed:
+      error: Kapak kaldırılamadı, tekrar dene
+      success: Kapak resmin kaldırıldı
+    save_cover: Kapağı kaydet
+huseyinfiliz-leaderboard:
+  admin:
+    settings:
+      section_gamification: Oyunlaştırma
+fof-formatting:
+  admin:
+    plugins:
+      FancyPants: Gelişmiş tipografi kullan (akıllı tırnak, uzun tire, üç nokta)
+      HTMLEntities: HTML karakter kodlarını (&hearts; gibi) karaktere dönüştür
+fof-moderator-notes:
+  admin:
+    permissions:
+      viewnotes: Moderatör notlarını görüntüle
+fof-reactions:
+  forum:
+    disabled-reaction: Bu tepkiyi şu an kullanamazsın, lütfen sayfayı yenile
+    notification: '{username}, gönderine {reaction} tepkisi bıraktı'
+    reaction_button_label: '{reaction} ile tepki ver'
+    modal:
+      confirm_remove_all_reaction_type: Bu gönderideki tüm {reaction} tepkilerini kaldırmak istediğine emin misin? Bu işlem geri alınamaz.
+      confirm_remove_user_reaction: '{username} kullanıcısının bu gönderideki {reaction} tepkisini kaldırmak istediğine emin misin? Bu işlem geri alınamaz.'
+  admin:
+    page:
+      cdn:
+        help: 'Varsayılan olarak tepki görselleri Cloudflare CDN''inden sunulur. İstersen başka bir CDN adresi de girebilirsin. <code>[codepoint]</code> ifadesi emojinin kod noktasıyla değiştirilir.
+
+
+          Örneğin jsdelivr üzerinden Noto Emoji''ye geçmek için <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code> adresini girebilirsin.
+
+
+          CDN''in Emoji/Unicode {emojibase} veya daha yeni bir sürümü desteklemeli. Twemoji sürümünü eklemek için [twemoji] kullan.
+
+          '
+      reactions:
+        Helptext: Emojinin ya da Font Awesome simgesinin adını (tanımlayıcısını) gir ve türünü seç.
+        delete_confirmation: Bu tepkiyi silmek istediğine emin misin? Bu işlem geri alınamaz.
+      convert:
+        help: Eklentiyi yeni güncellediysen tepkilerin dönüştürülmesi gerekir. Yeni kurduysan bu mesajı görmezden gelebilirsin.
+        converting: Tepkilerin dönüştürülüyor. Birkaç dakika sonra sayfayı yenilediğinde işlem tamamlanmış olur. (Süre, toplam tepki sayısına göre değişebilir.)
+      settings:
+        allow-anonymous-help: Açıksa misafirler ve anonim kullanıcılar gönderilere tepki bırakabilir. Anonim tepkiler bir profile bağlanmaz, tepki listesinde toplu gösterilir.
+        integrations:
+          gamification:
+            upvoteHelptext: Otomatik olarak artı oya dönüştürülecek tepkinin tanımlayıcısını gir
+            downvoteHelptext: Otomatik olarak eksi oya dönüştürülecek tepkinin tanımlayıcısını gir
+          likes:
+            Helptext: Otomatik olarak beğeniye dönüştürülecek tepkinin tanımlayıcısını gir
