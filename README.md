@@ -2,13 +2,14 @@
 
 > **Read-only archive of released versions of flarumturkiye/turkce.** Not for installation: use [Packagist](https://packagist.org/packages/flarumturkiye/turkce) or the [upstream repository](https://github.com/Berocan025/R-OCHTR).
 
-**0** versions archived · Latest: [`v1.0.1`](https://github.com/flarchive/berocan025-r-ochtr/tree/archive/v1.0.1) · License: `MIT` · Flarum: `^2.0`
+**2** versions archived · Latest: [`v1.0.1`](https://github.com/flarchive/berocan025-r-ochtr/tree/archive/v1.0.1) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v1.0.0` | 2026-11-22 | `^2.0` | [Browse](https://github.com/flarchive/berocan025-r-ochtr/tree/archive/v1.0.0) |
+| `v1.0.1` | 2026-11-22 | `^2.0` | [Browse](https://github.com/flarchive/berocan025-r-ochtr/tree/archive/v1.0.1) |
 
 Catalog entry: [packages/berocan025-r-ochtr.json](https://github.com/flarchive/archive-index/blob/main/packages/berocan025-r-ochtr.json)
 
