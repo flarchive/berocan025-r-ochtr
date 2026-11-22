@@ -1,0 +1,38 @@
+{
+    "name": "flarumturkiye/turkce",
+    "description": "Flarum için eksiksiz, gözden geçirilmiş Türkçe dil paketi. Flarum Türkiye (flarumturkiye.com) katkısıdır.",
+    "type": "flarum-extension",
+    "keywords": ["flarum", "türkçe", "turkish", "turkce", "locale", "language", "dil", "ceviri"],
+    "license": "MIT",
+    "homepage": "https://flarumturkiye.com",
+    "authors": [
+        {
+            "name": "Flarum Türkiye",
+            "homepage": "https://flarumturkiye.com",
+            "role": "Çeviri ekibi"
+        }
+    ],
+    "support": {
+        "forum": "https://flarumturkiye.com",
+        "source": "https://flarumturkiye.com"
+    },
+    "require": {
+        "flarum/core": "^2.0"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Türkçe · Flarum Türkiye",
+            "category": "language",
+            "flarum-cli": {
+                "modules": {
+                    "backend": true,
+                    "frontend": false
+                }
+            }
+        },
+        "flarum-locale": {
+            "code": "tr",
+            "title": "Türkçe"
+        }
+    }
+}
